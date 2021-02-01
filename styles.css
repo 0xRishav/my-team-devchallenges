@@ -4,7 +4,7 @@ html{
     /* font-size: 10px; */
 }
 .body-wrapper{
-    width: 85%;
+    width: 80%;
     margin: auto;
     position: relative;
 }
@@ -37,8 +37,83 @@ nav{
 .heading-info-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .info-container{
     width: 439px;
+}
+
+
+/* Main Content */
+.member-img{
+    max-width: 200px;
+    height: auto;
+}
+.name{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 27px;
+    color: #000000;
+}
+.team-member-container{
+    position: relative;
+    padding-right: 20px;
+    display: inline;
+    width: 300px;
+}
+.team-member-container:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.4s ease-in-out;
+}
+.role{
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;    
+    right: 0;
+    top: 0;
+    /* margin-left: 20px; */
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+
+
+.team-wrapper{
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* Membar rows */
+.row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.middle{
+    margin-top: 15vh;
+    
+}
+.member-img{
+    border-radius: 10px;
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
