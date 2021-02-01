@@ -1,0 +1,44 @@
+/* font-family: 'PT Serif', serif; */
+/* font-family: 'Poppins', sans-serif; */
+html{
+    /* font-size: 10px; */
+}
+.body-wrapper{
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+body{
+    background: #FAFAFA;
+}
+nav{
+    margin-top: 8vh;
+}
+.logo{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    width: 278px;
+}
+
+.intro-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.heading-info-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.info-container{
+    width: 439px;
+}
